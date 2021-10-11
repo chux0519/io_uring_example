@@ -7,3 +7,11 @@
   - cd liburing
   - ./configure
   - make && make install
+
+
+## cat
+
+> gcc cat.c/cat_uring.c
+>
+> gcc cat_liburing.c -luring
+
